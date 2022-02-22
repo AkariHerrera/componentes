@@ -41,7 +41,6 @@ class HomePageTemp extends StatelessWidget {
             trailing: Icon(Icons.keyboard_arrow_right),
             onTap: () {},
           ),
-          Divider()
         ],
       );
     }).toList();
