@@ -14,7 +14,7 @@ class AlertPage extends StatelessWidget {
           child: Text('Mostrar alerta'),
           onPressed: () => _mostrarAlert(context),
           style: ElevatedButton.styleFrom(
-              primary: Colors.red, shape: StadiumBorder()),
+              primary: Colors.blue, shape: StadiumBorder()),
         ),
       ),
       floatingActionButton: FloatingActionButton(
