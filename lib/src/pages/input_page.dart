@@ -80,17 +80,14 @@ class _InputPageState extends State<InputPage> {
 
   Widget _crearPassword() {
     return TextField(
-        obscureText: true,
-        decoration: InputDecoration(
-            border:
-                OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
-            hintText: 'Password',
-            labelText: 'Password',
-            suffixIcon: Icon(Icons.lock_open),
-            icon: Icon(Icons.lock)),
-        onChanged: (valor) => setState(() {
-              _email = valor;
-            }));
+      obscureText: true,
+      decoration: InputDecoration(
+          border: OutlineInputBorder(borderRadius: BorderRadius.circular(20.0)),
+          hintText: 'Password',
+          labelText: 'Password',
+          suffixIcon: Icon(Icons.lock_open),
+          icon: Icon(Icons.lock)),
+    );
   }
 
   Widget _crearFecha(BuildContext context) {
